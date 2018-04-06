@@ -46,7 +46,7 @@
       position: relative
       z-index: 1
 
-      .card
+      .v-card
         max-width: 400px
         margin: 0 auto
 

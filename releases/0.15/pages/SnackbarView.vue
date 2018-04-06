@@ -82,6 +82,6 @@
 
 <style lang="stylus">
   #snackbar-view // Needed so snackbar can show in docs
-    .component-example > .card
+    .component-example > .v-card
       z-index: initial !important
 </style>

@@ -78,11 +78,11 @@
               params: [
                 [
                   'v-card-text',
-                  '.card__text'
+                  '.v-card__text'
                 ],
                 [
                   'v-card-actions',
-                  '.card__actions'
+                  '.v-card__actions'
                 ]
               ]
             }

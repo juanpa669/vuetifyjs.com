@@ -60,7 +60,7 @@
 </script>
 
 <style>
-  .card--flex-toolbar {
+  .v-card--flex-toolbar {
     margin-top: -64px;
   }
 </style>

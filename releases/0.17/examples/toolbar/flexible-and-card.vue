@@ -6,7 +6,7 @@
     </v-toolbar>
     <v-layout row>
       <v-flex xs8 offset-xs2>
-        <v-card class="card--flex-toolbar">
+        <v-card class="v-card--flex-toolbar">
           <v-toolbar card color="white" prominent>
             <v-toolbar-title class="body-2 grey--text">Title</v-toolbar-title>
             <v-spacer></v-spacer>
@@ -29,7 +29,7 @@
 </template>
 
 <style>
-  .card--flex-toolbar {
+  .v-card--flex-toolbar {
     margin-top: -64px;
   }
 </style>

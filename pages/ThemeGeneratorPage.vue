@@ -49,7 +49,7 @@
         tile
         flat
         height="calc(100% - 332px)"
-      ).scroll-y.card--swatches
+      ).scroll-y.v-card--swatches
         swatch-picker(
           class="swatch-picker"
           v-model="color"
@@ -182,7 +182,7 @@
     .navigation-drawer
       overflow: hidden
 
-    .card--swatches
+    .v-card--swatches
       direction: rtl
 
     .swatch-picker.vc-swatches

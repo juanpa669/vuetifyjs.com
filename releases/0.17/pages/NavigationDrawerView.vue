@@ -174,7 +174,7 @@ For most application-level drawers, you will want to use either <code>absolute</
   @import '../node_modules/vuetify/src/stylus/settings/_elevations.styl'
 
   #navigation-drawer-view
-    .component-example .card__text
+    .component-example .v-card__text
       overflow: hidden
 
     .navigation-drawer

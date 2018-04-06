@@ -140,6 +140,6 @@
       flex: 1 1 auto
       flex-direction: column
       
-      .card
+      .v-card
         flex: 1 1 auto
 </style>
