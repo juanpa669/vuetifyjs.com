@@ -178,14 +178,14 @@
     display: flex
     flex-direction: column
 
-    .jumbotron
+    .v-jumbotron
       &__image
         max-width: 90%
 
-    .carousel
-      .carousel__left,
-      .carousel__right
-        .icon
+    .v-carousel
+      .v-carousel__left,
+      .v-carousel__right
+        .v-icon
           color: rgba(#000, .54) !important
 
     .strike

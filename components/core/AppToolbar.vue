@@ -58,7 +58,7 @@
             :key="language.locale"
             @click="translateI18n(language.locale)"
           )
-            v-list-tile-avatar(size="24px").avatar--tile
+            v-list-tile-avatar(tile size="24px")
               img(
                 :src="`https://countryflags.io/${language.country}/flat/24.png`"
                 width="24px"
@@ -254,15 +254,15 @@
 
 <style lang="stylus">
   #app-toolbar
-    .toolbar__title
+    .v-toolbar__title
       margin-left .5em
       font-weight 300
       font-size 21px
       position relative
       top 1px
 
-    .toolbar__items
-      .btn
+    .v-toolbar__items
+      .v-btn
         text-transform capitalize
         font-size 16px
         font-weight 300
