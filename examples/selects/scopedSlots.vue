@@ -1,28 +1,27 @@
 <template>
   <v-container fluid>
-    <v-layout row wrap>
+    <v-layout row wrap align-center>
       <v-flex xs12 sm6>
         <v-subheader v-text="'Slots'"></v-subheader>
       </v-flex>
       <v-flex xs12 sm6>
-        <v-select
-          label="Select"
+        <v-autocomplete
           :items="people"
           v-model="e11"
+          label="Select"
           item-text="name"
           item-value="name"
           multiple
           chips
           max-height="auto"
-          autocomplete
         >
           <template slot="selection" slot-scope="data">
             <v-chip
-              close
-              @input="data.parent.selectItem(data.item)"
               :selected="data.selected"
-              class="chip--select-multi"
               :key="JSON.stringify(data.item)"
+              close
+              class="chip--select-multi"
+              @input="data.parent.selectItem(data.item)"
             >
               <v-avatar>
                 <img :src="data.item.avatar">
@@ -44,7 +43,7 @@
               </v-list-tile-content>
             </template>
           </template>
-        </v-select>
+        </v-autocomplete>
       </v-flex>
     </v-layout>
   </v-container>

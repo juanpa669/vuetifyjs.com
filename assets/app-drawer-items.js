@@ -82,10 +82,11 @@ export default [
       { name: 'footer', title: 'Footer' },
       {
         title: 'Inputs & controls',
-        group: '(forms|selects|selection|text-fields)',
+        group: '(forms|selects|selection|text-fields|inputs)',
         namespace: 'components',
         items: [
           { name: 'forms', title: 'Forms' },
+          { name: 'inputs', title: 'Inputs' },
           { name: 'selects', title: 'Selects' },
           { name: 'selection-controls', title: 'Selection controls' },
           { name: 'text-fields', title: 'Text fields' }
@@ -136,6 +137,7 @@ export default [
     group: 'guides',
     icon: 'mdi-television-guide',
     items: [
+      { name: 'VueCli3', title: 'Vue-cli 3', badge: 'new' },
       { name: 'SSR', title: 'Server side rendering' },
       { name: 'ALaCarte', title: 'A la carte' }
     ]

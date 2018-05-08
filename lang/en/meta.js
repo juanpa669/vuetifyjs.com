@@ -263,6 +263,12 @@ export default {
     'description': 'Icon component for Vuetify Framework',
     'keywords': 'icon'
   },
+  'components/inputs': {
+    'h1': 'Inputs',
+    'title': 'Inputs',
+    'description': 'Input component for the Vuetify framework.',
+    'keywords': 'input'
+  },
   'components/lists': {
     'h1': 'Lists',
     'title': 'List Component',
@@ -466,6 +472,12 @@ export default {
     'title': 'Server side rendering',
     'description': 'Server side rendering guide for the Vuetify framework.',
     'keywords': 'server side rendering, ssr'
+  },
+  'guides/vue-cli-3': {
+    'h1': 'Vue-cli 3',
+    'title': 'Vue-cli 3',
+    'description': 'Vue-cli 3 and plugin guide for the Vuetify framework.',
+    'keywords': 'vue cli 3'
   },
   'theme-generator': {
     'h1': 'Theme generator',
